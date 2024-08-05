@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Castoro, serif;
+  line-height: 1.5;
+}
+img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+a{
+  display: inline-block;
+}
+/* .m0-a{
+  margin: 0 auto;
+} */
+.fs-128{
+  font-size: 128px;
+}
+/* .ml-312{
+  margin-left: 312px;
+}
+.ml-972{
+  margin-left: 972px;
+} */
+.lb-12{
+  letter-spacing: 0.12em;
+}
+.container{
+  width: 1296px;
+  margin: 0 auto;
+}
+.header{
+  padding-top: 160px;
+  div{
+    text-align: center;
+  }
+}
+.header h2{
+  text-align: right;
+}
+/* .photo{
+  width: 33.125%;
+} */
+.bg-gray{
+  background-color: #EFEFEF;
+  margin-bottom: 80px;
+}
+.bio{
+  margin-left: auto;
+  font-size: 32px;
+  width: 636px;
+  padding: 48px 0;
+}
+.info{
+  width: 636px;
+}
+.info-title{
+  border-bottom: 3px solid #AE0000;
+  font-size: 40px;
+  color:#AE0000;
+  margin-bottom: 16px;
+}
+.info-item{
+  margin-bottom: 40px;
+}
+.info-item li{
+  font-size: 24px;
+}
+.info div{
+  font-size: 20px;
+  font-style: italic;
+  color: #949494;
+}
+/* 找到解法了~~ */
+.info-item:nth-of-type(1){
+  li{
+   margin-bottom: 8px;
+ }
+}
+.info-item:nth-of-type(2){
+  li{
+   margin-bottom: 16px;
+ }
+}
+.info-item:nth-of-type(3){
+  li{
+   margin-bottom: 16px;
+ }
+}
+.info-item:nth-of-type(4){
+  li{
+   margin-bottom: 12px;
+ }
+}
+
+/* 這部分只有第一段有吃到設定，二三四都沒出來QQ */
+/* 
+.info ul:nth-of-type(1){
+   li{
+    margin-bottom: 8px;
+  }
+}
+.info ul:nth-of-type(2){
+   li{
+    margin-bottom: 16px;
+  }
+}
+.info ul:nth-of-type(3){
+   li{
+    margin-bottom: 16px;
+  }
+}
+.info ul:nth-of-type(4){
+   li{
+    margin-bottom: 12px;
+  }
+} 
+  */
+
+.bg-footer{
+  background-color: #000000;
+  margin-top: 160px;
+}
+.contact{
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  padding: 64px 0;
+  font-size: 0;
+  a{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+
+
